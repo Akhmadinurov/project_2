@@ -192,7 +192,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 823px) {
   .section-top__form-container {
     top: 190px;
     left: auto;
@@ -240,9 +240,6 @@ img {
     -o-object-fit: unset;
        object-fit: unset;
   }
-}
-
-@media only screen and (max-width: 414px) {
   .section-top__intro-text {
     width: 84%;
     padding: 0;
