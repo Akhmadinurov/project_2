@@ -6,4 +6,4 @@
 - responsive, adaptive
 - BEM 
 
-### (OUTPUT)[https://akhmadinurov.github.io/project_2/]
+(OUTPUT) URL[https://akhmadinurov.github.io/project_2/]
