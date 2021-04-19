@@ -7,4 +7,4 @@
 - responsive, adaptive
 - BEM 
 
-(OUTPUT)[https://akhmadinurov.github.io/project_2/]
+[OUTPUT](https://akhmadinurov.github.io/project_2/)
