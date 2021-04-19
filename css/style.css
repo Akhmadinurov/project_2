@@ -215,8 +215,8 @@ img {
     margin-right: 0%;
   }
   .section-blog__image {
-    width: 344px;
-    height: 350px;
+    width: 44vw;
+    height: 44vw;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -227,10 +227,27 @@ img {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 660px) {
+  .section-blog__article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-blog__image {
+    width: 100%;
+    height: auto;
+    -o-object-fit: unset;
+       object-fit: unset;
+  }
+}
+
+@media only screen and (max-width: 414px) {
   .section-top__intro-text {
     width: 84%;
-    padding-top: 10%;
+    padding: 0;
+    padding-top: 25px;
+    height: auto;
   }
   .section-top__inner-container {
     -ms-flex-item-align: start;
@@ -241,23 +258,21 @@ img {
   .section-top__header {
     width: 100%;
   }
-  .section-top {
-    height: 100vh;
-    padding-bottom: 104px;
-  }
   h1 {
     font-size: 26px;
     letter-spacing: -1px;
   }
   .section-top__form-container {
     top: 358px;
+    height: auto;
+    padding-bottom: 20px;
   }
   .section-top__header-text {
     width: 100%;
+    padding-bottom: 20px;
   }
   .section-blog__image {
-    width: 344px;
-    height: 240px;
+    width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -289,6 +304,63 @@ img {
   }
   h2 {
     margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    width: auto;
+    border: solid 2px #0AD9C6;
+    padding-bottom: 0;
+  }
+  .section-top__form-container {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .section-top__inner-container {
+    width: 80%;
+    height: auto;
+  }
+  .section__top__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  .form__input,
+  .button {
+    width: auto;
+    line-height: 35px;
+  }
+  .button {
+    padding: 0 12px;
+  }
+  .section-top__form-policytext {
+    padding: 0 20px;
+    width: auto;
+    margin: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
