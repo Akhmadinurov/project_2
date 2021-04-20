@@ -235,7 +235,7 @@ img {
             flex-direction: column;
   }
   .section-blog__image {
-    width: 100%;
+    width: 99%;
     height: auto;
     -o-object-fit: unset;
        object-fit: unset;
@@ -269,7 +269,7 @@ img {
     padding-bottom: 20px;
   }
   .section-blog__image {
-    width: 100%;
+    width: 99%;
     -o-object-fit: cover;
        object-fit: cover;
   }
