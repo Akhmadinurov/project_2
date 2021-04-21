@@ -317,6 +317,8 @@ img {
     width: auto;
     border: solid 2px #0AD9C6;
     padding-bottom: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
   }
   .section-top__form-container {
     position: relative;
