@@ -49,7 +49,7 @@ h2 {
   display: flex;
   height: 770px;
   width: calc(100vw - 4);
-  border: solid 2px #0AD9C6;
+  // border: solid 2px #0AD9C6;
   background-image: url(../images/bg.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -159,7 +159,7 @@ h2 {
 }
 
 img {
-  border: solid 2px #0AD9C6;
+//  border: solid 2px #0AD9C6;
 }
 
 .section-blog__article-content {
@@ -316,7 +316,7 @@ img {
             flex-direction: column;
     height: auto;
     width: auto;
-    border: solid 2px #0AD9C6;
+//    border: solid 2px #0AD9C6;
     padding-bottom: 0;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
